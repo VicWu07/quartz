@@ -1,7 +1,8 @@
 ---
 title: "Test Draft"
-draft: true
+draft: false
 ---
 
 
 
+Published.
