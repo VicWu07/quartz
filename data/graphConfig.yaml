@@ -3,6 +3,8 @@
 # if false, Local Graph will be default on every page as usual
 enableGlobalGraph: false
 
+enableLocalGraph: false
+
 ### Local Graph ###
 
 localGraph:
