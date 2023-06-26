@@ -3,4 +3,4 @@ title: Main Page
 enableToc: false
 ---
 
-Hello World
+This is the main page.
