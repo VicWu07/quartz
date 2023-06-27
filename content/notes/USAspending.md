@@ -5,9 +5,11 @@ enableToc: false
 creation_date: 2023-06-27
 ---
 
-
-![[notes/images/USAspending 2023-06-27 13.05.15.excalidraw]]
-
+# Federal Spending Flow
+```mermaid
+flowchart TD
+A-->|Hello|B
+```
 
 # References
 - [USAspending - Official Training Materials](https://www.usaspending.gov/data-sources)
