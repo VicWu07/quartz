@@ -8,9 +8,14 @@ Hi! My name is WU, Yifeng (伍奕峰) Vic. I'm a rising senior in Quantitative F
 
 # My research pages
 I'm working on
-- [[Asset Pricing Project|My main research work (Asset Pricing Project)]] with Professor Yan JI from HKUST, Professor Wei WU from TAMU, and Professor Winston DOU from Wharton. *2022 April-Present*.
-- [[Intangible Asset Measurement|An intangible asset measurement project]] based on [Organization Capital and the Cross-Section of Expected Returns (2013)](https://onlinelibrary.wiley.com/doi/abs/10.1111/jofi.12034) and [Intangible Value (2022)](https://www.nowpublishers.com/article/Details/CFR-0113) *2023 April-Present*.
-- [[FCFF to Sales Project| A profitability measurement project]] leveraging COMPUSTAT data, comparing it with the widely used national account data in the macro literature. *2023 April-Present*.
+- [[notes/Asset Pricing Project|My main research work (Asset Pricing Project)]] with Professor Yan JI from HKUST, Professor Wei WU from TAMU, and Professor Winston DOU from Wharton. *2022 April-Present*.
+- [[notes/Intangible Asset Measurement|An intangible asset measurement project]] based on [Organization Capital and the Cross-Section of Expected Returns (2013)](https://onlinelibrary.wiley.com/doi/abs/10.1111/jofi.12034) and [Intangible Value (2022)](https://www.nowpublishers.com/article/Details/CFR-0113) *2023 April-Present*.
+- [[notes/FCFF to Sales Project| A profitability measurement project]] leveraging COMPUSTAT data, comparing it with the widely used national account data in the macro literature. *2023 April-Present*.
 
 
-
+# Test Ground
+```dataview 
+TABLE dateformat(file.mtime, "dd.MM.yyyy - HH:mm") AS "Last modified" FROM "" SORT file.mtime 
+DESC
+LIMIT 25 
+```
