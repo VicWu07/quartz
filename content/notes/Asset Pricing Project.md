@@ -1,6 +1,6 @@
 ---
 title: "Asset Pricing Project"
-draft: true
+draft: false
 ---
 # Data
 [[notes/USAspending|USAspending]]: The learning hub for the fed-level government expenditure.

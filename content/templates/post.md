@@ -1,6 +1,6 @@
 ---
 title: "{{title}}"
-draft: true
+draft: false
 enableToc: false
 creation_date: {{date}}
 ---
