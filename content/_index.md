@@ -13,7 +13,7 @@ I'm working on
 - [[notes/FCFF to Sales Project| A profitability measurement project]] leveraging COMPUSTAT data, comparing it with the widely used national account data in the macro literature. *2023 April-Present*.
 
 # Research Idea
-[[Inspire from HBR Why Entrepreneurs don't need Venture Capital|Exploring the Venture Capital Literature]]
+[[notes/Inspire from HBR Why Entrepreneurs don't need Venture Capital|Exploring the Venture Capital Literature]]
 
 
 # Test Ground
