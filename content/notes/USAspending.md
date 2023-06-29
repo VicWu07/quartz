@@ -1,7 +1,7 @@
 ---
 title: "USAspending"
 draft: false
-enableToc: false
+enableToc: true
 creation_date: 2023-06-27
 ---
 
