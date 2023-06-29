@@ -5,6 +5,7 @@ enableToc: false
 creation_date: 2023-06-28
 ---
 # Timeline
+
 1. **Algorithm Stage** | *2022.04-2022.08*
 	1. Explored and designed an algorithm to do an initial fuzzy match.
 	2. Meeting Memo Explored FY2001 | *2022.05.06*
