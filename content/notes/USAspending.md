@@ -6,7 +6,7 @@ creation_date: 2023-06-27
 ---
 
 # Federal Spending Flow
-![[notes/images/image_1_20230629155642.png]]
+![[notes/images/USAspending_image_1.png]]
 
 %%[[Excalidraw/USAspending 2023-06-29 13.44.51.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 13.44.51.excalidraw.dark.png|dark exported image]] %%
 
