@@ -17,12 +17,12 @@ tags: [excalidraw]
 	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.6",
 	"elements": [
 		{
-			"id": "PXDrkfTXB8mNSCpH0c0-u",
-			"type": "rectangle",
-			"x": -197.12890625,
-			"y": -203.36827087402344,
-			"width": 272.9765625,
-			"height": 137.15625,
+			"id": "0Q4ZQv7rAI7tCa2zDFWdF",
+			"type": "diamond",
+			"x": -146.140625,
+			"y": -350.86436462402344,
+			"width": 334.5234375,
+			"height": 251.96875,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -34,14 +34,14 @@ tags: [excalidraw]
 			"groupIds": [],
 			"frameId": null,
 			"roundness": {
-				"type": 3
+				"type": 2
 			},
-			"seed": 1962958643,
+			"seed": 71299869,
 			"version": 13,
-			"versionNonce": 534387955,
+			"versionNonce": 985151837,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1688063835879,
+			"updated": 1688064294671,
 			"link": null,
 			"locked": false
 		}
