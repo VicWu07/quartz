@@ -22,3 +22,5 @@ TABLE dateformat(file.mtime, "dd.MM.yyyy - HH:mm") AS "Last modified" FROM "" SO
 DESC
 LIMIT 25 
 ```
+
+# Building Log
