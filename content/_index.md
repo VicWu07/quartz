@@ -6,6 +6,8 @@ enableToc: false
 # Bio
 Hi! My name is WU, Yifeng (伍奕峰) Vic. I'm a rising senior in Quantitative Finance program at HKUST, aspiring to pursue a Finance Ph.D. program. I just finished my exchange at UCLA. My interests are consumption-based asset pricing and intangible assets.
 
+Here is a selected list of [[Course List |courses]] I've taken.
+
 # My research pages
 I'm working on
 - [[notes/Asset Pricing Project|My main research work (Asset Pricing Project)]] with Professor Yan JI from HKUST, Professor Wei WU from TAMU, and Professor Winston DOU from Wharton. *2022 April-Present*.
