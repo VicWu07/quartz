@@ -24,5 +24,3 @@ LIMIT 25
 ```
 
 # Building Log
-
-![Test](notes/images/_index_image_1.png)

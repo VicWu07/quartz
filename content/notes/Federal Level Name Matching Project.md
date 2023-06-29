@@ -4,12 +4,11 @@ draft: true
 enableToc: false
 creation_date: 2023-06-28
 ---
-
 # Timeline
 1. **Algorithm Stage** | *2022.04-2022.08*
 	1. Explored and designed an algorithm to do an initial fuzzy match.
-	2. Meeting Memo (Explored FY2000) | *2022.05.06*
-		1. 4 Types of match cases![[notes/images/Federal Level Name Matching Project_image_1.png]]
+	2. Meeting Memo Explored FY2001 | *2022.05.06*
+		1. 4 Types of match cases![[notes/images/Federal Level Name Matching Project_image_1.png|300]]
 		2. Algorithm Details ([RapidFuzz](https://pypi.org/project/rapidfuzz/))
 			1. **Cleaning**: Clean company-name-variables (both CRSP and USAspending) with [Cleanco](https://pypi.org/project/cleanco/) package
 			2. **CRSP**: Merge each firm-FY observation within +1/-1 fiscal year with the historical name file
@@ -40,4 +39,11 @@ creation_date: 2023-06-28
 **exploratary_rapidfuzz.csv**
 > Finished and exported first round output for year 2000 as exploratary_rapidfuzz.csv with rapid fuzz algorithm.
 > May 24, 2022, Fuzzy Match Project-Yifeng Week 2 Progress Report
+
+
+
+# High-Level Learning 
+- [ ] #todo Move them elsewhere
+1. Always create functions, and maybe it'd be good to write function and implementation separately.
+2. Make good slides so that after some time it's simple to review
 
