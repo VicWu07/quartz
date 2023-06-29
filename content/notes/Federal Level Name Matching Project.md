@@ -8,7 +8,7 @@ creation_date: 2023-06-28
 1. **Algorithm Stage** | *2022.04-2022.08*
 	1. Explored and designed an algorithm to do an initial fuzzy match.
 	2. Meeting Memo Explored FY2001 | *2022.05.06*
-		1. 4 Types of match cases![[notes/images/Federal Level Name Matching Project_image_1.png|300]]
+		1. 4 Types of match cases![[notes/images/image_1_20230629152345.png|300]]
 		2. Algorithm Details ([RapidFuzz](https://pypi.org/project/rapidfuzz/))
 			1. **Cleaning**: Clean company-name-variables (both CRSP and USAspending) with [Cleanco](https://pypi.org/project/cleanco/) package
 			2. **CRSP**: Merge each firm-FY observation within +1/-1 fiscal year with the historical name file
@@ -16,20 +16,20 @@ creation_date: 2023-06-28
 			4. Cutoffs
 				1. Score Cutoff = 0
 				2. Number Limit = 25 (Top 25 match cases will be returned)
-		3. RapidFuzz Score Distribution![[notes/images/Federal Level Name Matching Project_image_2.png|300]]![[notes/images/Federal Level Name Matching Project_image_3.png|400]]
+		3. RapidFuzz Score Distribution![[notes/images/image_2_20230629152345.png|300]]![[notes/images/image_3_20230629152345.png|400]]
 	3. Meeting Memo | *2022.05.30-06.28*
-		1. Working Language![[notes/images/Federal Level Name Matching Project_image_4.png]]
-		2. Matching Diagram![[notes/images/Federal Level Name Matching Project_image_5.png]]![[notes/images/Federal Level Name Matching Project_image_6.png]]
-		3. Matching Pipeline (FY2000 as an illustration)![[notes/images/Federal Level Name Matching Project_image_7.png]]
-		4. Disposal Rule![[notes/images/Federal Level Name Matching Project_image_8.png]]
+		1. Working Language![[notes/images/image_4_20230629152345.png]]
+		2. Matching Diagram![[notes/images/image_5_20230629152345.png]]![[notes/images/image_6_20230629152345.png]]
+		3. Matching Pipeline (FY2000 as an illustration)![[notes/images/image_7_20230629152345.png]]
+		4. Disposal Rule![[notes/images/image_8_20230629152345.png]]
 			1. [ ] #todo check the clean file generator code to formulate disposal rule
-		5. List Match Algorithm![[notes/images/Federal Level Name Matching Project_image_9.png]]
+		5. List Match Algorithm![[notes/images/image_9_20230629152345.png]]
 		6. Have more examples in the file "20220530-0628_FuzzyMatch_Presentation.pptx"
 2. **Manual Matching Stage** | *2022.08-2022.12*
 	1. Provided a detailed brochure for student helpers to match the company names manually | *2022.08* 
 	1. Student helpers manually matched the company names and conducted 2 rounds of crosscheck | *2022.08-2022.12*
 	2. Meeting Memo | *2022.08.10*
-		1. Grouping logic of manual cleaning files for student helpers: Group by CRSP name and each CRSP maps to multiple USAspending![[notes/images/Federal Level Name Matching Project_image_10.png]]![[notes/images/Federal Level Name Matching Project_image_11.png]]
+		1. Grouping logic of manual cleaning files for student helpers: Group by CRSP name and each CRSP maps to multiple USAspending![[notes/images/image_10_20230629152345.png]]![[notes/images/image_11_20230629152345.png]]
 		2. 
 3. **Checking and mapping Stage** | *2022.12-2023.03*
 	1. Handled multiple mapping cases and selected useful variables
