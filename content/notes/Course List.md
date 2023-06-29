@@ -19,6 +19,7 @@ creation_date: 2023-06-29
 - MATH 164 Optimization (A+)
 - MATH 171 Stochastic Processes (A+)
 - Other basic courses: Probability, Differential Equations
+
 **HKUST**
 - MATH 2033 Mathematical Analysis (A)
 - Other basic courses: Calculus series, Linear Algebra, Multivariable Calculus
