@@ -5,10 +5,11 @@ enableToc: false
 creation_date: 2023-06-27
 ---
 
-# Federal Spending Flow
-![[notes/images/USAspending_image_1.png]]
+# Federal Data Structure
+![[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.light.svg]]
+<!--%%[[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.dark.svg|dark exported image]]%%-->
 
-%%[[Excalidraw/USAspending 2023-06-29 13.44.51.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 13.44.51.excalidraw.dark.png|dark exported image]] %%
+
 
 # References
 - [USAspending - Data Sources](https://www.usaspending.gov/data-sources)
