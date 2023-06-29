@@ -25,4 +25,4 @@ LIMIT 25
 
 # Building Log
 
-![[content/notes/images/_index_image_1.png]]
+![Test](notes/images/_index_image_1.png)
