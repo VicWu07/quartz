@@ -4,7 +4,7 @@ enableToc: false
 ---
 
 # Bio
-Hi! My name is WU, Yifeng (伍奕峰) Vic. I'm a rising senior in Quantitative Finance program at HKUST, aspiring to pursue a Finance Ph.D. program. I just finished my exchange at UCLA (2023 Winter & Spring). My interests are consumption-based asset pricing and intangible assets.
+> Hi! My name is WU, Yifeng (伍奕峰) Vic. I'm a rising senior in Quantitative Finance program at HKUST, aspiring to pursue a Finance Ph.D. program. I just finished my exchange at UCLA (2023 Winter & Spring). My interests are consumption-based asset pricing and intangible assets.
 
 Here is a selected list of [[notes/Course List|courses]] I've taken.
 
