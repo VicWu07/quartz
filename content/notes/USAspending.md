@@ -6,8 +6,12 @@ creation_date: 2023-06-27
 ---
 
 # Federal Data Structure
+## Spending Categories
 ![[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.light.svg]]
 <!--%%[[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.dark.svg|dark exported image]]%%-->
+## Spending Flow
+![[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.light.svg]]
+<!--%%[[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.dark.svg|dark exported image]]%%-->
 
 
 
