@@ -206,6 +206,19 @@ creation_date: 2023-06-27
 >8. [assistance listing](https://www.usaspending.gov/data-sources?glossary=assistance-listings-cfda-program&)
 >   
 
+
+
+# References
+- [USAspending - Data Sources](https://www.usaspending.gov/data-sources)
+- [USAspending - Data Use Guide](https://www.usaspending.gov/federal-spending-guide)
+- [USAspending - Training Videos Get and Post API Request](https://www.usaspending.gov/training-videos)
+- [Data Act - Award Type introduction](https://fedspendingtransparency.github.io/whitepapers/types/)
+
+# Data Descriptions
+- [Data Dictionary](https://www.usaspending.gov/data-dictionary)
+- [Dataset Metadata](https://www.usaspending.gov/download_center/dataset_metadata)
+
+
 > [!info]- File E: SAM.gov - System for Award Management
 > 
 > [SAM.gov](https://sam.gov/) is the “System for Award Management” where potential recipients must register if they want to be eligible to receive federal [prime awards](https://www.usaspending.gov/data-sources?glossary=prime-award&). USAspending.gov uses SAM.gov as the source of authoritative [recipient name](https://www.usaspending.gov/data-sources?glossary=recipient-name&), [code](https://www.usaspending.gov/data-sources?glossary=unique-entity-identifier-uei&), and [executive compensation](https://www.usaspending.gov/data-sources?glossary=highly-compensated-officer-total-compensation&) data.
@@ -220,16 +233,3 @@ creation_date: 2023-06-27
 > 4. places of performance
 > 5. award descriptions
 > 6. executive compensation data
-
->
-
-
-# References
-- [USAspending - Data Sources](https://www.usaspending.gov/data-sources)
-- [USAspending - Data Use Guide](https://www.usaspending.gov/federal-spending-guide)
-- [USAspending - Training Videos Get and Post API Request](https://www.usaspending.gov/training-videos)
-- [Data Act - Award Type introduction](https://fedspendingtransparency.github.io/whitepapers/types/)
-
-# Data Descriptions
-- [Data Dictionary](https://www.usaspending.gov/data-dictionary)
-- [Dataset Metadata](https://www.usaspending.gov/download_center/dataset_metadata)
