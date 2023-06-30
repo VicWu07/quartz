@@ -5,7 +5,7 @@ enableToc: true
 creation_date: 2023-06-27
 ---
 
-> [!done]- Legend
+> [!cite]- Legend
 >
 >>[!info] Concept & Explanation
 >
