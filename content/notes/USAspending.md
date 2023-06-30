@@ -131,14 +131,17 @@ More information on how to download data from USAspending is available in the H
 > 5. Other Financial Assistance: Financial assistance from the Federal Government that is not described by any of the previously-defined assistance types.
 
 ## Data Categories and Sources
+
 > [!example]- Data Categories and Sources
 > 
 > ![[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.light.svg]]
+
 <!--%%[[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.dark.svg|dark exported image]]%%-->
 
 > [!info]- Agency Budget Execution (ABE)
 > 
-> Agency Budget Execution (ABE) information is compiled in SF 133 reports. It shows how federal agencies spent their funding, as required by **Office of Management and Buget's Circular A-11**.
+> Agency Budget Execution (ABE) information is compiled in SF 133 reports. It shows how federal agencies spent their funding, as required by **Office of Management and Budget's Circular A-11**.
+> 
 > *Note*: smaller agencies not required to submit their account data submit their Budget Execution data to a different system.
 
 >[!info]- Governmentwide Treasury Account Symbol (GTAS)
