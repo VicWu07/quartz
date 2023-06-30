@@ -5,17 +5,19 @@ enableToc: true
 creation_date: 2023-06-27
 ---
 
-# Terminology
+# Terminology and Variables
 
 ## Obligations v.s. Outlays
 1. Obligation: When Fed promised to pay
 2. Outlay: When Fed's money is *actually* paid out
 > Usually it's more common to **measure** spending by **obligation** over outlays.
 
-## Data structure-related variables
-> [!tip]- Transaction
+## Structural concepts
+> [!info]- Transaction
 > 
 > A transaction can be the initial contract, grant, loan, or insurance award or any amendment or modification to that award.
+
+## Data structure-related variables
 
 > [!tip]- Award ID
 > 
@@ -34,6 +36,10 @@ creation_date: 2023-06-27
 > [!tip]- Unique Record Identifier (URI)
 > 
 > In USAspending.gov site context.
+
+## Date-related variables
+>[!tip]- Action Date
+- [ ] #todo 
 
 
 # Federal Data Structure
@@ -99,7 +105,11 @@ creation_date: 2023-06-27
 
 >[!info]- File D1: Federal Procurement Data System (FPDS)
 >
->
+>This is where federal contracting officials submit **transaction-level** data for **procurement**. It contains
+>1. obligation
+>2. transaction description
+>3. action date
+>4. 
 
 # References
 - [USAspending - Data Sources](https://www.usaspending.gov/data-sources)
