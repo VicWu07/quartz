@@ -99,8 +99,9 @@ creation_date: 2023-06-27
 > 5. Other Financial Assistance: Financial assistance from the Federal Government that is not described by any of the previously-defined assistance types.
 
 > [!example]- Data Categories and Sources
-![[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.light.svg]]
-<!--%%[[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.dark.svg|dark exported image]]%%-->
+> 
+> ![[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.light.svg]]
+> <!--%%[[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.dark.svg|dark exported image]]%%-->
 
 > [!info]- Agency Budget Execution (ABE)
 > 
@@ -172,12 +173,18 @@ creation_date: 2023-06-27
 >6. [recipient location](https://www.usaspending.gov/data-sources?glossary=recipient-location&)
 >7. [place of performance](https://www.usaspending.gov/data-sources?glossary=primary-place-of-performance&)
 >8. [assistance listing](https://www.usaspending.gov/data-sources?glossary=assistance-listings-cfda-program&)
+>   
+
 
 > [!info]- File E: SAM.gov - System for Award Management
 > 
 > [SAM.gov](https://sam.gov/) is the “System for Award Management” where potential recipients must register if they want to be eligible to receive federal [prime awards](https://www.usaspending.gov/data-sources?glossary=prime-award&). USAspending.gov uses SAM.gov as the source of authoritative [recipient name](https://www.usaspending.gov/data-sources?glossary=recipient-name&), [code](https://www.usaspending.gov/data-sources?glossary=unique-entity-identifier-uei&), and [executive compensation](https://www.usaspending.gov/data-sources?glossary=highly-compensated-officer-total-compensation&) data.
+> 
 
 
+> [!info]- File F: FFATA Subaward Reporting System (FSRS)
+> 
+> 
 # References
 - [USAspending - Data Sources](https://www.usaspending.gov/data-sources)
 - [USAspending - Data Use Guide](https://www.usaspending.gov/federal-spending-guide)
