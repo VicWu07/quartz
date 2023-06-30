@@ -4,7 +4,16 @@ draft: false
 enableToc: true
 creation_date: 2023-06-27
 ---
-[[notes/testingnew|testingnew]]
+
+# Legend
+>[!info] Concept & Explanation
+
+>[!tip] Variable
+
+>[!faq] Q&A
+
+>[!example] Diagrams & Figures
+
 # Terminology and Variables
 
 >[!faq]- Obligations v.s. Outlays
