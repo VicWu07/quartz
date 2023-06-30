@@ -5,17 +5,37 @@ enableToc: true
 creation_date: 2023-06-27
 ---
 
+> [!done]- Legend
+>
+>>[!info] Concept & Explanation
+>
+> >[!tip] Variable
+> 
+> >[!faq] Q&A
+> 
+> >[!example] Diagrams & Figures
+
 # Terminology and Variables
 
-## Obligations v.s. Outlays
-1. Obligation: When Fed promised to pay
-2. Outlay: When Fed's money is *actually* paid out
-> Usually it's more common to **measure** spending by **obligation** over outlays.
+>[!faq]- Obligations v.s. Outlays
+>
+> 1. Obligation: When Fed promised to pay
+> 2. Outlay: When Fed's money is *actually* paid out
+> 
+> >Usually it's more common to **measure** spending by **obligation** over outlays.
 
-## Structural concepts
+## Structural Concepts
 > [!info]- Transaction
 > 
 > A transaction can be the initial contract, grant, loan, or insurance award or any amendment or modification to that award.
+
+## Categorical Concepts
+>[!info]- Set Aside Type
+>
+>A tool used to award contracts to specific types of businesses. Most set asides reserve contracts **for small businesses**. Others are more specific, to support small businesses with specific designations, such as veteran owned business or small disadvantaged business types.
+>
+>[List of Set Aside Types](https://www.fpds.gov/help/Type_of_Set_Aside.htm)
+
 
 ## Data structure-related variables
 
@@ -37,25 +57,46 @@ creation_date: 2023-06-27
 > 
 > In USAspending.gov site context.
 
+>[!tip]- Unique Entity Identifier (UEI) From SAM.gov
+>
+>The Unique Entity Identifier (UEI) for an awardee or recipient is an alphanumeric code created in the System for Award Management (SAM.gov) that is used to uniquely identify specific **commercial, nonprofit, or business entities** registered to do business with the federal government.
+
 ## Date-related variables
->[!tip]- Action Date
-- [ ] #todo 
+>[!tip]- Action Date (tie with award obligations)
+>
+>The date the action being reported (for prime award transactions or sub-awards) was **issued or signed by the Government, or a binding agreement was reached**. Because award obligations are tied to action dates, any search for spending data on USAspending will **search by this data element rather than by Period of Performance dates**.
 
 
 # Federal Data Structure
-
-## Spending Categories
-![[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.light.svg]]
-<!--%%[[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.dark.svg|dark exported image]]%%-->
-
-
-
-## Spending Flow
-![[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.light.svg]]
+>[!example]- Spending Flow
+>
+> ![[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.light.svg]]
 <!--%%[[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.dark.svg|dark exported image]]%%-->
 
 
-## Data Sources
+>[!example]- Spending Categories
+>
+>![[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.light.svg]]
+<!--%%[[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.dark.svg|dark exported image]]%%-->
+
+> [!info]- Financial Assistance
+> 
+> A federal program, service, or activity that directly aids organizations, individuals, or state/local/tribal governments. Sectors include 
+> 1. education
+> 2. health
+> 3. public safety
+> 4. public welfare
+> 5. ...
+> 
+> Financial assistance is distributed in many forms, including 
+> 1. grants
+> 2. loans
+> 3. direct payments
+> 4. insurance
+> 5. Other Financial Assistance: Financial assistance from the Federal Government that is not described by any of the previously-defined assistance types.
+
+
+## Data Categories and Sources
 ![[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.light.svg]]
 <!--%%[[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.dark.svg|dark exported image]]%%-->
 > [!info]- Agency Budget Execution (ABE)
@@ -109,8 +150,29 @@ creation_date: 2023-06-27
 >1. obligation
 >2. transaction description
 >3. action date
->4. 
+>4. awarding agency
+>5. recipient code (UEI)
+>6. recipient location
+>7. place of performance
+>8. Industry (NAICS)
+>9. product or service
+>10. type of set aside
 
+>[!info]- File D2: Financial Assistance Broker Submission (FABS)
+>
+>The Financial Assistance Broker Submission (FABS) is how federal agencies submit [transaction-level](https://www.usaspending.gov/data-sources?glossary=transaction&) data for [financial assistance](https://www.usaspending.gov/data-sources?glossary=financial-assistance&) awards to USAspending.gov. It contains information about 
+>1. award transaction obligation
+>2. [award transaction description](https://www.usaspending.gov/data-sources?glossary=transaction-description&)
+>3. [action date](https://www.usaspending.gov/data-sources?glossary=action-date&)
+>4. [awarding agency](https://www.usaspending.gov/data-sources?glossary=awarding-agency&)
+>5. [recipient code](https://www.usaspending.gov/data-sources?glossary=unique-entity-identifier-uei&)
+>6. [recipient location](https://www.usaspending.gov/data-sources?glossary=recipient-location&)
+>7. [place of performance](https://www.usaspending.gov/data-sources?glossary=primary-place-of-performance&)
+>8. [assistance listing](https://www.usaspending.gov/data-sources?glossary=assistance-listings-cfda-program&)
+
+> [!info]- File E: SAM.gov - System for Award Management
+> 
+> [SAM.gov](https://sam.gov/) is the “System for Award Management” where potential recipients must register if they want to be eligible to receive federal [prime awards](https://www.usaspending.gov/data-sources?glossary=prime-award&). USAspending.gov uses SAM.gov as the source of authoritative [recipient name](https://www.usaspending.gov/data-sources?glossary=recipient-name&), [code](https://www.usaspending.gov/data-sources?glossary=unique-entity-identifier-uei&), and [executive compensation](https://www.usaspending.gov/data-sources?glossary=highly-compensated-officer-total-compensation&) data.
 
 
 # References
