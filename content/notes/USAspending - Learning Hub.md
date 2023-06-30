@@ -34,8 +34,7 @@ creation_date: 2023-06-27
 >
 >[List of Set Aside Types](https://www.fpds.gov/help/Type_of_Set_Aside.htm)
 
-
-## ID-related variables
+## ID-related variables ([Data Dictionary](https://www.usaspending.gov/data-dictionary))
 
 > [!tip]- Award ID
 > 
@@ -51,16 +50,25 @@ creation_date: 2023-06-27
 >
 >An identification code assigned to a specific **financial assistance** award by an agency for tracking purposes. The FAIN is tied to that award (and **all future modifications to that award**) throughout the award's life. **Within an agency, FAINs are unique**; a new award must be issued a new FAIN. FAIN stands for Federal Award Identification Number, though the digits may be both letters and numbers.
 
-
 > [!tip]- Unique Record Identifier (URI)
 > 
 > In USAspending.gov site context.
-
 
 >[!tip]- Unique Entity Identifier (UEI) From SAM.gov
 >
 >The Unique Entity Identifier (UEI) for an awardee or recipient is an alphanumeric code created in the System for Award Management (SAM.gov) that is used to uniquely identify specific **commercial, nonprofit, or business entities** registered to do business with the federal government.
 
+> [!tip]- award_unique_key
+> 
+> The award_unique_key field contains both **financial assistance** and **contract** prime award **summary** identifier information. This field is available in Treasury and federal account level account breakdown by award account download files. 
+
+>[!tip]- assistance_award_unique_key
+>
+>The assistance_award_unique_key field contains **financial assistance** prime award **summary** identifier information. This field is available in financial assistance prime award transaction and summary download files.
+
+> [!tip]- contract_award_unique_key
+> 
+> The contract_award_unique_key field contains **contract** prime award **summary** identifier information. This field is available in contract prime award transaction and summary download files.
 
 ## Date-related variables
 >[!tip]- Action Date (tie with award obligations)
@@ -75,17 +83,17 @@ creation_date: 2023-06-27
 >2. reflect new information (e.g., when a price of a project was lower than expected)
 
 # Federal Data Structure
->[!example]- Spending Flow
+>[!example]+ Spending Flow
 >
 > ![[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.light.svg]]
 <!--%%[[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.dark.svg|dark exported image]]%%-->
 
->[!example]- Spending Categories
+>[!example]+ Spending Categories
 >
 >![[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.light.svg]]
 <!--%%[[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.dark.svg|dark exported image]]%%-->
 
-> [!info]- Procurement: IDV Type
+> [!info]- Procurement: IDV Type #todo
 > 
 > How about now?
 
@@ -105,14 +113,15 @@ creation_date: 2023-06-27
 > 4. insurance
 > 5. Other Financial Assistance: Financial assistance from the Federal Government that is not described by any of the previously-defined assistance types.
 
-## Data Categories and Sources
+## Data Categories
 
-> [!example]- Data Categories and Sources
+> [!example]+ Data Categories and Sources
 > 
 > ![[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.light.svg]]
 
 <!--%%[[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.dark.svg|dark exported image]]%%-->
 
+## Data Sources
 > [!info]- Agency Budget Execution (ABE)
 > 
 > Agency Budget Execution (ABE) information is compiled in SF 133 reports. It shows how federal agencies spent their funding, as required by **Office of Management and Budget's Circular A-11**.
@@ -220,7 +229,7 @@ creation_date: 2023-06-27
 - [Dataset Metadata](https://www.usaspending.gov/download_center/dataset_metadata)
 
 - [ ] #todo Explore the matched variables 
-<!--The award_unique_key, assistance_award_unique_key, and contract_award_unique_key columns contain prime award summary identifier information.
+The award_unique_key, assistance_award_unique_key, and contract_award_unique_key columns contain prime award summary identifier information.
 
 The award_unique_key field contains both financial assistance and contract prime award summary identifier information. This field is available in Treasury and federal account level account breakdown by award account download files. The assistance_award_unique_key field contains financial assistance prime award summary identifier information. This field is available in financial assistance prime award transaction and summary download files. The contract_award_unique_key field contains contract prime award summary identifier information. This field is available in contract prime award transaction and summary download files.
 
@@ -232,4 +241,4 @@ The Award ID filter on [Advanced Search](https://www.usaspending.gov/search) c
 
 More information about these fields is available in the [Data Dictionary](https://www.usaspending.gov/data-dictionary) and the [Custom Account Data Dictionary](https://files.usaspending.gov/docs/Custom+Account+Data+Dictionary.xlsx).
 
-More information on how to download data from USAspending is available in the HOW TO ACCESS THE DATA section of this guide.-->
+More information on how to download data from USAspending is available in the HOW TO ACCESS THE DATA section of this guide.
