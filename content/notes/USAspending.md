@@ -135,7 +135,7 @@ More information on how to download data from USAspending is available in the H
 > [!example]- Data Categories and Sources
 > 
 > ![[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.light.svg]]
-> <!--%%[[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.dark.svg|dark exported image]]%%-->
+<!--%%[[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.dark.svg|dark exported image]]%%-->
 
 > [!info]- Agency Budget Execution (ABE)
 > 
