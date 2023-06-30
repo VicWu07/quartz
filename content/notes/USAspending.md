@@ -4,7 +4,7 @@ draft: false
 enableToc: true
 creation_date: 2023-06-27
 ---
-
+[[notes/testingnew|testingnew]]
 # Terminology and Variables
 
 >[!faq]- Obligations v.s. Outlays
