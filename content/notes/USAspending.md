@@ -5,16 +5,6 @@ enableToc: true
 creation_date: 2023-06-27
 ---
 
-> [!cite]- Legend
->
-> >[!info] Concept & Explanation
->
-> >[!tip] Variable
-> 
-> >[!faq] Q&A
-> 
-> >[!example] Diagrams & Figures
-
 # Terminology and Variables
 
 >[!faq]- Obligations v.s. Outlays
@@ -210,6 +200,16 @@ creation_date: 2023-06-27
 > 6. executive compensation data
 
 
+
+> [!cite]- Legend
+>
+> >[!info] Concept & Explanation
+>
+> >[!tip] Variable
+> 
+> >[!faq] Q&A
+> 
+> >[!example] Diagrams & Figures
 
 # References
 - [USAspending - Data Sources](https://www.usaspending.gov/data-sources)
