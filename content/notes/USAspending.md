@@ -65,7 +65,11 @@ creation_date: 2023-06-27
 > 2. employee salaries
 > 3. spending for federal awards
 
-
+>[!info]- GAS
+>Governmentwide Award Systems (GAS) stores the detailed records of federal awards. It tracks **obligations** for award transactions and related data such as recipients, locations, and purposes. **Any individual award is composed of one or more transactions with a common Award ID**.
+>
+>![[Excalidraw/USAspending 2023-06-29 20.33.23.excalidraw.light.svg]]
+<!--%%[[Excalidraw/USAspending 2023-06-29 20.33.23.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 20.33.23.excalidraw.dark.svg|dark exported image]]%%-->
 
 
 # References
