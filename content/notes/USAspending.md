@@ -23,6 +23,18 @@ creation_date: 2023-06-27
 > 
 > ![[Excalidraw/USAspending 2023-06-29 20.33.23.excalidraw.light.svg]]
 
+> [!tip]- Procurement Instrument Identifier (PIID)
+> 
+> **Procurement**: A unique identifier assigned to a federal contract, purchase order, basic ordering agreement, basic agreement, and blanket purchase agreement. It is used to track the contract and any modifications or transactions related to it.
+
+>[!tip]- Federal Award Identification Number (FAIN)
+>
+>An identification code assigned to a specific **financial assistance** award by an agency for tracking purposes. The FAIN is tied to that award (and **all future modifications to that award**) throughout the award's life. **Within an agency, FAINs are unique**; a new award must be issued a new FAIN. FAIN stands for Federal Award Identification Number, though the digits may be both letters and numbers.
+
+> [!tip]- Unique Record Identifier (URI)
+> 
+> In USAspending.gov site context.
+
 
 # Federal Data Structure
 
@@ -40,16 +52,16 @@ creation_date: 2023-06-27
 ## Data Sources
 ![[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.light.svg]]
 <!--%%[[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.dark.svg|dark exported image]]%%-->
-> [!info]- ABE
+> [!info]- Agency Budget Execution (ABE)
 > 
 > Agency Budget Execution (ABE) information is compiled in SF 133 reports. It shows how federal agencies spent their funding, as required by **Office of Management and Buget's Circular A-11**.
 > *Note*: smaller agencies not required to submit their account data submit their Budget Execution data to a different system.
 
->[!info]- GTAS
+>[!info]- Governmentwide Treasury Account Symbol Adjusted Balance System (GTAS)
 >
 >Governmentwide Treasury Account Symbol Adjusted Balance System (GTAS) is extracted by USAspending, used to generate **Treasury Account** balances. This is the system where agencies submit their ABE data.
 
-> [!info]- AFS
+> [!info]- Agency Financial Systems (AFS)
 > 
 > Agency Financial Systems (AFS) is where Federal Agencies tracked their **own finances** such as
 > 1. Operational costs
@@ -78,14 +90,16 @@ creation_date: 2023-06-27
 >
 > It covers contract and financial assistance awards over the **lifetime** of those awards. Noted that File C only covers financial information details. Other non-financial details are in the **Files D1 and D2** where award **transactions** information including recipient names are stored. There are some **unlinked** award between C and D1 & D2. Refers to [Agency Submission Statistics Page](https://www.usaspending.gov/submission-statistics?tab=submissions&fy=2023&period=7) for unlinked statistics.
 
->[!info]- GAS
+>[!info]- Governmentwide Award Systems (GAS)
 >
 >Governmentwide Award Systems (GAS) stores the detailed records of federal awards. It tracks **obligations** for award transactions and related data such as recipients, locations, and purposes. **Any individual award is composed of one or more transactions with a common Award ID**.
 >
 >![[Excalidraw/USAspending 2023-06-29 20.33.23.excalidraw.light.svg]]
 <!--%%[[Excalidraw/USAspending 2023-06-29 20.33.23.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 20.33.23.excalidraw.dark.svg|dark exported image]]%%-->
 
-
+>[!info]- File D1: Federal Procurement Data System (FPDS)
+>
+>
 
 # References
 - [USAspending - Data Sources](https://www.usaspending.gov/data-sources)
