@@ -8,7 +8,6 @@
 
 
 > [!cite]- Legend
->
 > >[!info] Concept & Explanation
 >
 > >[!tip] Variable
