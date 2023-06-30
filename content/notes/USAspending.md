@@ -61,28 +61,31 @@ creation_date: 2023-06-27
 >
 >An identification code assigned to a specific **financial assistance** award by an agency for tracking purposes. The FAIN is tied to that award (and **all future modifications to that award**) throughout the award's life. **Within an agency, FAINs are unique**; a new award must be issued a new FAIN. FAIN stands for Federal Award Identification Number, though the digits may be both letters and numbers.
 
+
 > [!tip]- Unique Record Identifier (URI)
 > 
 > In USAspending.gov site context.
+
 
 >[!tip]- Unique Entity Identifier (UEI) From SAM.gov
 >
 >The Unique Entity Identifier (UEI) for an awardee or recipient is an alphanumeric code created in the System for Award Management (SAM.gov) that is used to uniquely identify specific **commercial, nonprofit, or business entities** registered to do business with the federal government.
 
+
 - [ ] #todo Explore the matched variables 
-> The award_unique_key, assistance_award_unique_key, and contract_award_unique_key columns contain prime award summary identifier information.
-> 
-> The award_unique_key field contains both financial assistance and contract prime award summary identifier information. This field is available in Treasury and federal account level account breakdown by award account download files. The assistance_award_unique_key field contains financial assistance prime award summary identifier information. This field is available in financial assistance prime award transaction and summary download files. The contract_award_unique_key field contains contract prime award summary identifier information. This field is available in contract prime award transaction and summary download files.
-> 
-> These fields may be used to aggregate, filter, or join account breakdown by award, prime award summary, and prime award transaction download files by prime award summary.
-> 
-> More information about these identifiers is available online .
-> 
-> The Award ID filter on [Advanced Search](https://www.usaspending.gov/search) can be used to filter award spending by the PIID, FAIN and URI data elements. These data elements are important components of prime award summary identifier information.
-> 
-> More information about these fields is available in the [Data Dictionary](https://www.usaspending.gov/data-dictionary) and the [Custom Account Data Dictionary](https://files.usaspending.gov/docs/Custom+Account+Data+Dictionary.xlsx).
-> 
-> More information on how to download data from USAspending is available in the HOW TO ACCESS THE DATA section of this guide.
+<!--The award_unique_key, assistance_award_unique_key, and contract_award_unique_key columns contain prime award summary identifier information.
+
+The award_unique_key field contains both financial assistance and contract prime award summary identifier information. This field is available in Treasury and federal account level account breakdown by award account download files. The assistance_award_unique_key field contains financial assistance prime award summary identifier information. This field is available in financial assistance prime award transaction and summary download files. The contract_award_unique_key field contains contract prime award summary identifier information. This field is available in contract prime award transaction and summary download files.
+
+These fields may be used to aggregate, filter, or join account breakdown by award, prime award summary, and prime award transaction download files by prime award summary.
+
+More information about these identifiers is available online .
+
+The Award ID filter on [Advanced Search](https://www.usaspending.gov/search) can be used to filter award spending by the PIID, FAIN and URI data elements. These data elements are important components of prime award summary identifier information.
+
+More information about these fields is available in the [Data Dictionary](https://www.usaspending.gov/data-dictionary) and the [Custom Account Data Dictionary](https://files.usaspending.gov/docs/Custom+Account+Data+Dictionary.xlsx).
+
+More information on how to download data from USAspending is available in the HOW TO ACCESS THE DATA section of this guide.-->
 
 ## Date-related variables
 >[!tip]- Action Date (tie with award obligations)
@@ -231,19 +234,3 @@ creation_date: 2023-06-27
 # Data Descriptions
 - [Data Dictionary](https://www.usaspending.gov/data-dictionary)
 - [Dataset Metadata](https://www.usaspending.gov/download_center/dataset_metadata)
-
-
-> [!info]- File E: SAM.gov - System for Award Management
-> 
-> [SAM.gov](https://sam.gov/) is the “System for Award Management” where potential recipients must register if they want to be eligible to receive federal [prime awards](https://www.usaspending.gov/data-sources?glossary=prime-award&). USAspending.gov uses SAM.gov as the source of authoritative [recipient name](https://www.usaspending.gov/data-sources?glossary=recipient-name&), [code](https://www.usaspending.gov/data-sources?glossary=unique-entity-identifier-uei&), and [executive compensation](https://www.usaspending.gov/data-sources?glossary=highly-compensated-officer-total-compensation&) data.
-> 
-
-> [!info]- File F: FFATA Subaward Reporting System (FSRS)
-> 
-> where [prime recipients](https://www.usaspending.gov/data-sources?glossary=prime-recipient) submit information about their subawards. This information includes data about both the prime award and the subaward, such as their 
-> 1. respective action dates
-> 2. recipient codes
-> 3. recipient locations
-> 4. places of performance
-> 5. award descriptions
-> 6. executive compensation data
