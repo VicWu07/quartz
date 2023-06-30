@@ -24,6 +24,14 @@ creation_date: 2023-06-27
 > 
 > >Usually it's more common to **measure** spending by **obligation** over outlays.
 
+>[!faq]- Prime v.s. Sub Award
+>
+>A **prime award** is an agreement that the federal government makes with a non-federal entity for the purpose of carrying out a federal program. Prime awards are distinct from sub-awards. 
+>
+>A **sub-award** is an agreement that a prime award recipient makes with another entity to perform a portion of the work for of a prime award.
+>
+>A prime award summary is a roll-up of all related prime award transactions which share a set of identifiers that make up the unique award key. Prime award transactions are aggregated together as prime award summaries **using different sets of fields** for contracts versus financial assistance award spending.
+
 ## Structural Concepts
 > [!info]- Transaction
 > 
@@ -37,7 +45,7 @@ creation_date: 2023-06-27
 >[List of Set Aside Types](https://www.fpds.gov/help/Type_of_Set_Aside.htm)
 
 
-## Data structure-related variables
+## ID-related variables
 
 > [!tip]- Award ID
 > 
@@ -61,11 +69,32 @@ creation_date: 2023-06-27
 >
 >The Unique Entity Identifier (UEI) for an awardee or recipient is an alphanumeric code created in the System for Award Management (SAM.gov) that is used to uniquely identify specific **commercial, nonprofit, or business entities** registered to do business with the federal government.
 
+- [ ] #todo Explore the matched variables 
+> The award_unique_key, assistance_award_unique_key, and contract_award_unique_key columns contain prime award summary identifier information.
+> 
+> The award_unique_key field contains both financial assistance and contract prime award summary identifier information. This field is available in Treasury and federal account level account breakdown by award account download files. The assistance_award_unique_key field contains financial assistance prime award summary identifier information. This field is available in financial assistance prime award transaction and summary download files. The contract_award_unique_key field contains contract prime award summary identifier information. This field is available in contract prime award transaction and summary download files.
+> 
+> These fields may be used to aggregate, filter, or join account breakdown by award, prime award summary, and prime award transaction download files by prime award summary.
+> 
+> More information about these identifiers is available online .
+> 
+> The Award ID filter on [Advanced Search](https://www.usaspending.gov/search) can be used to filter award spending by the PIID, FAIN and URI data elements. These data elements are important components of prime award summary identifier information.
+> 
+> More information about these fields is available in the [Data Dictionary](https://www.usaspending.gov/data-dictionary) and the [Custom Account Data Dictionary](https://files.usaspending.gov/docs/Custom+Account+Data+Dictionary.xlsx).
+> 
+> More information on how to download data from USAspending is available in the HOW TO ACCESS THE DATA section of this guide.
+
 ## Date-related variables
 >[!tip]- Action Date (tie with award obligations)
 >
 >The date the action being reported (for prime award transactions or sub-awards) was **issued or signed by the Government, or a binding agreement was reached**. Because award obligations are tied to action dates, any search for spending data on USAspending will **search by this data element rather than by Period of Performance dates**.
 
+## Value-related variables
+>[!tip]- De-obligation
+>
+>Negative obligations occur when agencies decrease **previous obligations** to
+>1. correct errors **or**
+>2. reflect new information (e.g., when a price of a project was lower than expected)
 
 # Federal Data Structure
 >[!example]- Spending Flow
@@ -97,6 +126,8 @@ creation_date: 2023-06-27
 > 3. direct payments
 > 4. insurance
 > 5. Other Financial Assistance: Financial assistance from the Federal Government that is not described by any of the previously-defined assistance types.
+
+## Data Categories and Sources
 
 > [!example]- Data Categories and Sources
 > 
@@ -175,16 +206,24 @@ creation_date: 2023-06-27
 >8. [assistance listing](https://www.usaspending.gov/data-sources?glossary=assistance-listings-cfda-program&)
 >   
 
-
 > [!info]- File E: SAM.gov - System for Award Management
 > 
 > [SAM.gov](https://sam.gov/) is the “System for Award Management” where potential recipients must register if they want to be eligible to receive federal [prime awards](https://www.usaspending.gov/data-sources?glossary=prime-award&). USAspending.gov uses SAM.gov as the source of authoritative [recipient name](https://www.usaspending.gov/data-sources?glossary=recipient-name&), [code](https://www.usaspending.gov/data-sources?glossary=unique-entity-identifier-uei&), and [executive compensation](https://www.usaspending.gov/data-sources?glossary=highly-compensated-officer-total-compensation&) data.
 > 
 
-
 > [!info]- File F: FFATA Subaward Reporting System (FSRS)
 > 
-> 
+> where [prime recipients](https://www.usaspending.gov/data-sources?glossary=prime-recipient) submit information about their subawards. This information includes data about both the prime award and the subaward, such as their 
+> 1. respective action dates
+> 2. recipient codes
+> 3. recipient locations
+> 4. places of performance
+> 5. award descriptions
+> 6. executive compensation data
+
+
+
+
 # References
 - [USAspending - Data Sources](https://www.usaspending.gov/data-sources)
 - [USAspending - Data Use Guide](https://www.usaspending.gov/federal-spending-guide)
