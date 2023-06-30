@@ -5,14 +5,15 @@ enableToc: true
 creation_date: 2023-06-27
 ---
 
-# Legend
->[!info] Concept & Explanation
-
->[!tip] Variable
-
->[!faq] Q&A
-
->[!example] Diagrams & Figures
+> [!quote]- Legend
+> 
+>>[!info] Concept & Explanation
+>
+>>[!tip] Variable
+>
+>>[!faq] Q&A
+>
+>>[!example] Diagrams & Figures
 
 # Terminology and Variables
 
