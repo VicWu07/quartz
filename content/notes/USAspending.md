@@ -207,12 +207,10 @@ More information on how to download data from USAspending is available in the H
 >6. [recipient location](https://www.usaspending.gov/data-sources?glossary=recipient-location&)
 >7. [place of performance](https://www.usaspending.gov/data-sources?glossary=primary-place-of-performance&)
 >8. [assistance listing](https://www.usaspending.gov/data-sources?glossary=assistance-listings-cfda-program&)
->   
 
 > [!info]- File E: SAM.gov - System for Award Management
 > 
 > [SAM.gov](https://sam.gov/) is the “System for Award Management” where potential recipients must register if they want to be eligible to receive federal [prime awards](https://www.usaspending.gov/data-sources?glossary=prime-award&). USAspending.gov uses SAM.gov as the source of authoritative [recipient name](https://www.usaspending.gov/data-sources?glossary=recipient-name&), [code](https://www.usaspending.gov/data-sources?glossary=unique-entity-identifier-uei&), and [executive compensation](https://www.usaspending.gov/data-sources?glossary=highly-compensated-officer-total-compensation&) data.
-> 
 
 > [!info]- File F: FFATA Subaward Reporting System (FSRS)
 > 
@@ -223,7 +221,6 @@ More information on how to download data from USAspending is available in the H
 > 4. places of performance
 > 5. award descriptions
 > 6. executive compensation data
-
 
 # References
 - [USAspending - Data Sources](https://www.usaspending.gov/data-sources)
