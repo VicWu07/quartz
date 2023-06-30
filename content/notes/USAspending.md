@@ -199,18 +199,6 @@ creation_date: 2023-06-27
 > 5. award descriptions
 > 6. executive compensation data
 
-
-
-> [!cite]- Legend
->
-> >[!info] Concept & Explanation
->
-> >[!tip] Variable
-> 
-> >[!faq] Q&A
-> 
-> >[!example] Diagrams & Figures
-
 # References
 - [USAspending - Data Sources](https://www.usaspending.gov/data-sources)
 - [USAspending - Data Use Guide](https://www.usaspending.gov/federal-spending-guide)
