@@ -73,11 +73,14 @@ creation_date: 2023-06-27
 > ![[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.light.svg]]
 <!--%%[[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.dark.svg|dark exported image]]%%-->
 
-
 >[!example]- Spending Categories
 >
 >![[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.light.svg]]
 <!--%%[[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.dark.svg|dark exported image]]%%-->
+
+> [!info]- Procurement: IDV Type
+> 
+> 
 
 > [!info]- Financial Assistance
 > 
@@ -95,10 +98,10 @@ creation_date: 2023-06-27
 > 4. insurance
 > 5. Other Financial Assistance: Financial assistance from the Federal Government that is not described by any of the previously-defined assistance types.
 
-
-## Data Categories and Sources
+> [!example]- Data Categories and Sources
 ![[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.light.svg]]
 <!--%%[[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.dark.svg|dark exported image]]%%-->
+
 > [!info]- Agency Budget Execution (ABE)
 > 
 > Agency Budget Execution (ABE) information is compiled in SF 133 reports. It shows how federal agencies spent their funding, as required by **Office of Management and Buget's Circular A-11**.
@@ -158,7 +161,7 @@ creation_date: 2023-06-27
 >9. product or service
 >10. type of set aside
 
->[!info]- File D2: Financial Assistance Broker Submission (FABS)
+> [!info]- File D2: Financial Assistance Broker Submission (FABS)
 >
 >The Financial Assistance Broker Submission (FABS) is how federal agencies submit [transaction-level](https://www.usaspending.gov/data-sources?glossary=transaction&) data for [financial assistance](https://www.usaspending.gov/data-sources?glossary=financial-assistance&) awards to USAspending.gov. It contains information about 
 >1. award transaction obligation
