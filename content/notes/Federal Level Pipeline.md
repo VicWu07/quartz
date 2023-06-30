@@ -12,14 +12,14 @@ creation_date: 2023-06-30
 # Meeting Todo & Answer
 ## June 23, 2023
 1. Verify the Fed dataset
-	2. The dummy for Procurement and Financial Assistance (just saw from a government brochure that this level of stratification is caused by data source difference)
-	3. The exact definition of direct payment
+	1. The dummy for Procurement and Financial Assistance (just saw from a government brochure that this level of stratification is caused by data source difference)
 2. Verity the State level data
 	1. If payment data cover both contract payment and direct payment 
 3. Action
-	1. Add “Award Type” variable to Fed-level data 
-	2. After understanding “types” of data reported in Fed level data, give a definition of amount and how we can use them
-	3. Give a breakdown (distribution) on amount (contract value) by 9 groups of award data types (to understand the relevancy/representation/importance of each type)
+	1. Improve Federal Variable List
+	2. Add “Award Type” variable to Fed-level data 
+	3. After understanding “types” of data reported in Fed level data, give a definition of amount and how we can use them
+	4. Give a breakdown (distribution) on amount (contract value) by 9 groups of award data types (to understand the relevancy/representation/importance of each type)
 
 >[!faq]- Employee salaries in non-award data
 >

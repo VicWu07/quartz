@@ -5,7 +5,7 @@ enableToc: true
 creation_date: 2023-06-27
 ---
 
-# Terminology and Variables
+# Terminology
 
 >[!faq]- Obligations v.s. Outlays
 >
@@ -22,18 +22,74 @@ creation_date: 2023-06-27
 >
 >A prime award summary is a roll-up of all related prime award transactions which share a set of identifiers that make up the unique award key. Prime award transactions are aggregated together as prime award summaries **using different sets of fields** for contracts versus financial assistance award spending.
 
+>[!faq]- Employee salaries in non-award data
+>
+>The employees refer to **government employees**, according to "For example, account spending includes money used to **pay federal government employees’ salaries**. This spending is not included in award spending" from [Federal Spending Guide](https://www.usaspending.gov/federal-spending-guide)
+
+
 ## Structural Concepts
+>[!example]+ Spending Flow
+>
+> ![[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.light.svg]]
+<!--%%[[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.dark.svg|dark exported image]]%%-->
+
+>[!example]+ Spending Categories
+>
+>![[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.light.svg]]
+<!--%%[[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.dark.svg|dark exported image]]%%-->
+
+
+### Generic
 > [!info]- Transaction
 > 
 > A transaction can be the initial contract, grant, loan, or insurance award or any amendment or modification to that award.
 
-## Categorical Concepts
+
+
+### Procurement
+
+> [!info]- Procurement: IDV Type #todo
+> 
+> How about now?
+
 >[!info]- Set Aside Type
 >
 >A tool used to award contracts to specific types of businesses. Most set asides reserve contracts **for small businesses**. Others are more specific, to support small businesses with specific designations, such as veteran owned business or small disadvantaged business types.
 >
 >[List of Set Aside Types](https://www.fpds.gov/help/Type_of_Set_Aside.htm)
 
+### Financial Assistance (FA)
+> [!info]- Financial Assistance
+> 
+> A federal program, service, or activity that directly aids organizations, individuals, or state/local/tribal governments. Sectors include 
+> 1. education
+> 2. health
+> 3. public safety
+> 4. public welfare
+> 5. ...
+> 
+> Financial assistance is distributed in many forms, including 
+> 1. grants
+> 2. loans
+> 3. direct payments
+> 4. insurance
+> 5. Other Financial Assistance: Financial assistance from the Federal Government that is not described by any of the previously-defined assistance types.
+
+>[!info]- FA: Direct Payment
+>
+>A cash payment made by the federal government to an individual, **a private firm**, or another private institution.
+
+> [!info]- FA: Direct Payment for Specified Use
+> 
+> **Financial assistance** provided by the federal government directly to individuals, **private firms**, and other private institutions for a particular activity. 
+> 
+> To receive this assistance, the recipient must perform certain agreed-upon activities and meet certain milestones. **Direct payments don’t include solicited contracts for the procurement of goods and services for the government**.
+
+>[!info]- FA: Direct Payment with Unrestricted Use
+>
+>**Financial assistance** provided by the federal government directly to beneficiaries who meet certain federal **eligibility requirements**. This type of assistance doesn’t place any restrictions on how the recipient spends the money. Some examples of direct payments include **retirement, pension, and compensatory programs**.
+
+# Variables
 ## ID-related variables ([Data Dictionary](https://www.usaspending.gov/data-dictionary))
 
 > [!tip]- Award ID
@@ -82,46 +138,17 @@ creation_date: 2023-06-27
 >1. correct errors **or**
 >2. reflect new information (e.g., when a price of a project was lower than expected)
 
-# Federal Data Structure
->[!example]+ Spending Flow
->
-> ![[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.light.svg]]
-<!--%%[[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.34.53.excalidraw.dark.svg|dark exported image]]%%-->
 
->[!example]+ Spending Categories
->
->![[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.light.svg]]
-<!--%%[[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.19.52.excalidraw.dark.svg|dark exported image]]%%-->
 
-> [!info]- Procurement: IDV Type #todo
-> 
-> How about now?
 
-> [!info]- Financial Assistance
-> 
-> A federal program, service, or activity that directly aids organizations, individuals, or state/local/tribal governments. Sectors include 
-> 1. education
-> 2. health
-> 3. public safety
-> 4. public welfare
-> 5. ...
-> 
-> Financial assistance is distributed in many forms, including 
-> 1. grants
-> 2. loans
-> 3. direct payments
-> 4. insurance
-> 5. Other Financial Assistance: Financial assistance from the Federal Government that is not described by any of the previously-defined assistance types.
-
-## Data Categories
-
+# Data Sources
 > [!example]+ Data Categories and Sources
 > 
 > ![[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.light.svg]]
 
 <!--%%[[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.dark.svg|dark exported image]]%%-->
 
-## Data Sources
+
 > [!info]- Agency Budget Execution (ABE)
 > 
 > Agency Budget Execution (ABE) information is compiled in SF 133 reports. It shows how federal agencies spent their funding, as required by **Office of Management and Budget's Circular A-11**.
@@ -209,6 +236,16 @@ creation_date: 2023-06-27
 > 6. executive compensation data
 
 # Legend
+
+>[!quote]+ Tags: USAspending (Same level nodes are **mutually exclusive**)
+>
+>Account Data #USAspending/AccountData 
+>- Non Award Data #USAspending/AccountData/NAD 
+>- Award Data #USAspending/AccountData/AwardData 
+>	- Procurement (sometimes referred as "Contract") #USAspending/AccountData/AwardData/Procurement 
+>	- Financial Assistance #USAspending/AccountData/AwardData/FinancialAssistance 
+
+
 >[!info] Concept & Explanation
 
 >[!tip] Variable
@@ -217,16 +254,17 @@ creation_date: 2023-06-27
 
 >[!example] Diagrams & Figures
 
-
 # References
+**Data**
 - [USAspending - Data Sources](https://www.usaspending.gov/data-sources)
 - [USAspending - Data Use Guide](https://www.usaspending.gov/federal-spending-guide)
 - [USAspending - Training Videos Get and Post API Request](https://www.usaspending.gov/training-videos)
+- [USAspending - Data Dictionary](https://www.usaspending.gov/data-dictionary)
+- [USAspending - Dataset Metadata](https://www.usaspending.gov/download_center/dataset_metadata)
+
+**Articles**
 - [Data Act - Award Type introduction](https://fedspendingtransparency.github.io/whitepapers/types/)
 
-# Data Descriptions
-- [Data Dictionary](https://www.usaspending.gov/data-dictionary)
-- [Dataset Metadata](https://www.usaspending.gov/download_center/dataset_metadata)
 
 - [ ] #todo Explore the matched variables 
 The award_unique_key, assistance_award_unique_key, and contract_award_unique_key columns contain prime award summary identifier information.
