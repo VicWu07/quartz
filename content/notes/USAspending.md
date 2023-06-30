@@ -22,7 +22,7 @@ creation_date: 2023-06-27
 > 1. Obligation: When Fed promised to pay
 > 2. Outlay: When Fed's money is *actually* paid out
 > 
-> >Usually it's more common to **measure** spending by **obligation** over outlays.
+>Usually it's more common to **measure** spending by **obligation** over outlays.
 
 >[!faq]- Prime v.s. Sub Award
 >
@@ -221,10 +221,6 @@ More information on how to download data from USAspending is available in the H
 > 4. places of performance
 > 5. award descriptions
 > 6. executive compensation data
-
->[!info]- Testing
-
-> [!info]- Testing 2
 
 
 
