@@ -20,6 +20,8 @@ creation_date: 2023-06-27
 > [!tip]- Award ID
 > 
 > A unique identification number for each individual award. An award may be a contract, grant, loan, insurance, and direct payment.
+> 
+> ![[Excalidraw/USAspending 2023-06-29 20.33.23.excalidraw.light.svg]]
 
 
 # Federal Data Structure
@@ -38,14 +40,21 @@ creation_date: 2023-06-27
 ## Data Sources
 ![[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.light.svg]]
 <!--%%[[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 16.49.28.excalidraw.dark.svg|dark exported image]]%%-->
->[!info]- GTAS
->
->Governmentwide Treasury Account Symbol Adjusted Balance System (GTAS) is extracted by USAspending, used to generate **Treasury Account** balances. This is the system where agencies submit their ABE data.
-
 > [!info]- ABE
 > 
 > Agency Budget Execution (ABE) information is compiled in SF 133 reports. It shows how federal agencies spent their funding, as required by **Office of Management and Buget's Circular A-11**.
 > *Note*: smaller agencies not required to submit their account data submit their Budget Execution data to a different system.
+
+>[!info]- GTAS
+>
+>Governmentwide Treasury Account Symbol Adjusted Balance System (GTAS) is extracted by USAspending, used to generate **Treasury Account** balances. This is the system where agencies submit their ABE data.
+
+> [!info]- AFS
+> 
+> Agency Financial Systems (AFS) is where Federal Agencies tracked their **own finances** such as
+> 1. Operational costs
+> 2. employee salaries
+> 3. spending for federal awards
 
 > [!info]- File A: Account Balances
 > 
@@ -65,12 +74,9 @@ creation_date: 2023-06-27
 >
 > It includes both award and non-award spending data.
 
-> [!info]- AFS
-> 
-> Agency Financial Systems (AFS) is where Federal Agencies tracked their **own finances** such as
-> 1. Operational costs
-> 2. employee salaries
-> 3. spending for federal awards
+> [!info]- File C: Account Breakdown by Award
+>
+> It covers contract and financial assistance awards over the **lifetime** of those awards. Noted that File C only covers financial information details. Other non-financial details are in the **Files D1 and D2** where award **transactions** information including recipient names are stored. There are some **unlinked** award between C and D1 & D2. Refers to [Agency Submission Statistics Page](https://www.usaspending.gov/submission-statistics?tab=submissions&fy=2023&period=7) for unlinked statistics.
 
 >[!info]- GAS
 >
@@ -78,6 +84,7 @@ creation_date: 2023-06-27
 >
 >![[Excalidraw/USAspending 2023-06-29 20.33.23.excalidraw.light.svg]]
 <!--%%[[Excalidraw/USAspending 2023-06-29 20.33.23.excalidraw.md|🖋 Edit in Excalidraw]], and the [[Excalidraw/USAspending 2023-06-29 20.33.23.excalidraw.dark.svg|dark exported image]]%%-->
+
 
 
 # References
