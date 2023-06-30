@@ -13,7 +13,7 @@ creation_date: 2023-06-30
 ## June 23, 2023
 1. Verify the Fed dataset
 	1. The dummy for Procurement and Financial Assistance (just saw from a government brochure that this level of stratification is caused by data source difference)
-2. Verity the State level data
+2. Verify the State level data
 	1. If payment data cover both contract payment and direct payment 
 3. Action
 	1. Improve Federal Variable List
