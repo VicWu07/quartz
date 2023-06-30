@@ -206,6 +206,20 @@ creation_date: 2023-06-27
 >8. [assistance listing](https://www.usaspending.gov/data-sources?glossary=assistance-listings-cfda-program&)
 >   
 
+> [!info]- File E: SAM.gov - System for Award Management
+> 
+> [SAM.gov](https://sam.gov/) is the “System for Award Management” where potential recipients must register if they want to be eligible to receive federal [prime awards](https://www.usaspending.gov/data-sources?glossary=prime-award&). USAspending.gov uses SAM.gov as the source of authoritative [recipient name](https://www.usaspending.gov/data-sources?glossary=recipient-name&), [code](https://www.usaspending.gov/data-sources?glossary=unique-entity-identifier-uei&), and [executive compensation](https://www.usaspending.gov/data-sources?glossary=highly-compensated-officer-total-compensation&) data.
+> 
+
+> [!info]- File F: FFATA Subaward Reporting System (FSRS)
+> 
+> where [prime recipients](https://www.usaspending.gov/data-sources?glossary=prime-recipient) submit information about their subawards. This information includes data about both the prime award and the subaward, such as their 
+> 1. respective action dates
+> 2. recipient codes
+> 3. recipient locations
+> 4. places of performance
+> 5. award descriptions
+> 6. executive compensation data
 
 
 # References
