@@ -16,4 +16,7 @@ I'm working on
 
 <!--# Research Ideas
 [[notes/Inspire from HBR Why Entrepreneurs don't need Venture Capital|Exploring the Venture Capital Literature]]
+- （LIN‘S NVIDIA VIDEO）
+	- antitrust IN THE NEW ERA 
+	- AGENCY COST FOR MONOPOLISTIC MARKET PLAYER （DEADLOSS DUE TO YOU HAVE TO BUY IT LIKE NVIDIA IN GPU MAKRET）
 -->
