@@ -47,6 +47,7 @@ creation_date: 2023-06-27
 
 
 ### Procurement
+> [!tip] "award_or_idv_flag" used to partition procurement
 
 > [!info]- Procurement: IDV Type #todo
 > 
@@ -113,6 +114,15 @@ creation_date: 2023-06-27
 >[!tip]- Unique Entity Identifier (UEI) From SAM.gov
 >
 >The Unique Entity Identifier (UEI) for an awardee or recipient is an alphanumeric code created in the System for Award Management (SAM.gov) that is used to uniquely identify specific **commercial, nonprofit, or business entities** registered to do business with the federal government.
+>
+>**From 2022, SAM switched from DUNS to UEI**.
+
+> [!tip]- "awardee_or_recipient_uniqu" in our data set: DUNS
+> 
+> DUNS stands for Data Universal Numbering System. It is a unique 9-digit identification number assigned to a company or organization by Dun & Bradstreet, Inc. A DUNS is required to register in the System for Award Management (SAM). An organization must be registered in SAM (and obtain a DUNS) to do business with the federal government. There is a separate DUNS number for each business location in the Dun & Bradstreet database. The DUNS number is random, and specific digits have no significance.
+> 
+> ![[notes/images/20220701 USAspending Meeting_image_2.png]]
+> **From 2022, SAM switched from DUNS to UEI** ([link](https://sam.gov/content/duns-uei)).
 
 > [!tip]- award_unique_key
 > 
@@ -137,6 +147,11 @@ creation_date: 2023-06-27
 >Negative obligations occur when agencies decrease **previous obligations** to
 >1. correct errors **or**
 >2. reflect new information (e.g., when a price of a project was lower than expected)
+
+>[!tip]- Main amount: "federal_action_obligation"
+>
+>Amount of Federal government’s obligation, de-obligation, or liability, in dollars, for an award transaction.
+
 
 
 
