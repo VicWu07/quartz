@@ -47,7 +47,6 @@ creation_date: 2023-06-27
 
 
 ### Procurement
-![[notes/images/20220701 USAspending Meeting_image_5.png]]![[notes/images/20220701 USAspending Meeting_image_4.png]]![[notes/images/20220701 USAspending Meeting_image_6.png]]![[notes/images/20220701 USAspending Meeting_image_7.png]]
 > [!tip] "award_or_idv_flag" used to partition procurement
 
 > [!info]- Procurement: IDV Type
@@ -201,7 +200,7 @@ creation_date: 2023-06-27
 > 
 > DUNS stands for Data Universal Numbering System. It is a unique 9-digit identification number assigned to a company or organization by Dun & Bradstreet, Inc. A DUNS is required to register in the System for Award Management (SAM). An organization must be registered in SAM (and obtain a DUNS) to do business with the federal government. There is a separate DUNS number for each business location in the Dun & Bradstreet database. The DUNS number is random, and specific digits have no significance.
 > 
-> ![[notes/images/20220701 USAspending Meeting_image_2.png]]
+> ![[notes/images/USAspending - Learning Hub_image_1.png]]
 > **From 2022, SAM switched from DUNS to UEI** ([link](https://sam.gov/content/duns-uei)).
 
 > [!tip]- award_unique_key
@@ -361,7 +360,7 @@ creation_date: 2023-06-27
 - [Data Act - Award Type introduction](https://fedspendingtransparency.github.io/whitepapers/types/)
 
 
-- [ ] #todo Explore the matched variables 
+<!--- [ ] #todo Explore the matched variables 
 The award_unique_key, assistance_award_unique_key, and contract_award_unique_key columns contain prime award summary identifier information.
 
 The award_unique_key field contains both financial assistance and contract prime award summary identifier information. This field is available in Treasury and federal account level account breakdown by award account download files. The assistance_award_unique_key field contains financial assistance prime award summary identifier information. This field is available in financial assistance prime award transaction and summary download files. The contract_award_unique_key field contains contract prime award summary identifier information. This field is available in contract prime award transaction and summary download files.
@@ -374,4 +373,4 @@ The Award ID filter on [Advanced Search](https://www.usaspending.gov/search) c
 
 More information about these fields is available in the [Data Dictionary](https://www.usaspending.gov/data-dictionary) and the [Custom Account Data Dictionary](https://files.usaspending.gov/docs/Custom+Account+Data+Dictionary.xlsx).
 
-More information on how to download data from USAspending is available in the HOW TO ACCESS THE DATA section of this guide.
+More information on how to download data from USAspending is available in the HOW TO ACCESS THE DATA section of this guide.-->

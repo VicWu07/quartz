@@ -22,7 +22,6 @@ creation_date: 2023-07-01
 >The employees refer to **government employees**, according to "For example, account spending includes money used to **pay federal government employees’ salaries**. This spending is not included in award spending" from [Federal Spending Guide](https://www.usaspending.gov/federal-spending-guide)
 
 ---
-
 **Definition of Direct Payment**
 >[!info]- Direct Payment (A type of Financial Assistance)
 >
@@ -120,7 +119,7 @@ Where
 > 
 > DUNS stands for Data Universal Numbering System. It is a unique 9-digit identification number assigned to a company or organization by Dun & Bradstreet, Inc. A DUNS is required to register in the System for Award Management (SAM). An organization must be registered in SAM (and obtain a DUNS) to do business with the federal government. There is a separate DUNS number for each business location in the Dun & Bradstreet database. The DUNS number is random, and specific digits have no significance.
 > 
-> ![[notes/images/20220701 USAspending Meeting_image_2.png]]
+> ![[notes/images/USAspending - Learning Hub_image_1.png]]
 > **From 2022, SAM switched from DUNS to UEI** ([link](https://sam.gov/content/duns-uei)).
 
 Other table that could be linked by **awardee_or_recipient_uniqu**
@@ -246,7 +245,6 @@ for "transaction_fpds" table
 >4. orders, such as **purchase orders**, under which the contract becomes effective by written acceptance or performance; 
 >5. and bilateral contract modifications.
 
-
 ---
 **About award and transaction** and **an example of an award**
 
@@ -281,3 +279,6 @@ for "transaction_fpds" table
 2. Can prepare a case study for a state
 
 # Todo
+1. fabs importance in terms of volumes comparing to fpds (procurement)
+2. replicate table 2 of [GGZ 2022](https://www.dropbox.com/s/aziepqrnw0cyyx2/Gantchev_Goldman_Zhang_2022.pdf?dl=0)![[notes/images/20220701 USAspending Meeting_image_8.png]]
+3. [paper 2](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3323082)![[notes/images/20220701 USAspending Meeting_image_9.png]]
